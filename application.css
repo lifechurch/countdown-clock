@@ -1,0 +1,7 @@
+#churchonline_counter { overflow: auto; width: 200px; padding: 10px; display: none; }
+#churchonline_counter .description, #churchonline_counter .time li .label { font-size: 0.8em; }
+#churchonline_counter .time { list-style: none; padding: 0; margin: 10px 0 0 0; }
+#churchonline_counter .time li { float: left; padding: 0 10px; text-align: center; }
+#churchonline_counter .time li:first-child { padding-left: 0; }
+#churchonline_counter .time li span { font-size: 1.2em; }
+#churchonline_counter .live { display: none; font-weight: bold; }
