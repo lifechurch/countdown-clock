@@ -12,9 +12,11 @@ JSON data with a unix timestamp for the time you're counting down to. Sample:
 
 # Notes
 
-1. Some browsers (like Chrome) are big fans of making AJAX calls to local files.  So if you want to test out this code as-is, just fire up a Python server and point your browser to ```http://localhost:8000```
+1. If you want to test out this code as-is, just fire up a Python server and point your browser to ```http://localhost:8000```
 
         $ cd /my-project-path/
         $ python -m SimpleHTTPServer
 
-2. The sample JSON file (data.json) includes a timestamp that may be old.  If you load this all up to preview it, make sure you change the timestamp to something in the future.
+2. The existing ```application.js``` file uses the LifeChurch instance of the Church Online Platform to pull live event data.
+
+3. If you are a Church Online Platform church, make sure to replace ```var church_url = "lifechurch-tv.churchonline.org";``` with your church's domain.
